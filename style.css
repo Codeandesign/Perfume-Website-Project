@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ 
+  body{
+   background:url(img.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+  }
+
+  nav{
+    color: white;
+    display: flex;
+    gap: 150px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+.name{
+    margin-right: 650px;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family:cursive;
+    font-size: 30px;
+  }
+  .btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .btn:hover{
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   border-bottom: 2px solid white;
+  }
+  .shop{
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+  }
+  .shop:hover{
+    height:35px;
+  }
+  main{
+    margin: auto;
+    margin-top: -400px;
+    height: 500px;
+    width: 500px;
+    margin-left: 800px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 2s;
+  }
+  
+  .prev,.next{
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    text-align: center;
+    outline:none;
+    border: transparent;
+    cursor: pointer;
+    font-size: 30px;
+    opacity: 80%;
+  }
+  .prev{
+    margin-right: 100px;
+  }
+  .prev:hover,.next:hover{
+    opacity: 50%;
+  }
+  .container{
+    display: flex;
+    overflow: hidden;
+    position:relative;
+    height: 300px;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+ .info{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    transition: 2s;
+    cursor: pointer;
+ }
+
+ .discription{
+  margin-top: 50px;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    transition: 2s;
+    cursor: pointer;
+ }
+ .mrp{
+  color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    height: 20px;
+    width: 100px;
+    position:absolute;
+    cursor: pointer;
+    margin-top: 100px;
+    background-color: white;
+    text-align: center;
+ }
+ .mrp:hover{
+  background-color:tomato;
+ }
